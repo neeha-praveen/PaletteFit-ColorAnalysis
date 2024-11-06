@@ -1,1 +1,1 @@
-# PaletteFit---Color-Analysis
+# PaletteFit - Color Analysis
