@@ -76,7 +76,7 @@ def determine_season(skin_tone, eye_color, hair_color):
     return "Unclassified"
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
-image = cv2.imread('C:/Users/neeha/OneDrive/Desktop/vscode/PaletteFit-ColorAnalysis/sample.jpg') # you can input your own path to image
+image = cv2.imread("C:/Users/neeha/Downloads/IMG_20240825_115419790.jpg") # you can input your own path to image
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 faces = face_cascade.detectMultiScale(gray, 1.3, 5)
 if len(faces) > 0:
